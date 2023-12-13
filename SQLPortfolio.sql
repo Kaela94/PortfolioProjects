@@ -7,7 +7,7 @@ Skills Used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, 
 
 --Selecting data that I am starting with
 
-SELECT NAME, na_sales, global_sales
+SELECT name, na_sales, global_sales
 FROM PortfolioProject..GameSales
 WHERE name is not null
 ORDER BY 1, 2
